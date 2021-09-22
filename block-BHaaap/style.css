@@ -81,21 +81,15 @@ border-radius: 23px;
     display: inline-block;
 }
 
-.rat
-{
-    text-align: center;
-    font-size: 20px;
-    background-color: #A1A1A1;
-    border-bottom:3px dashed blue;
-    padding: 20px;
-  
-    
-}
 
 a{
+    display:inline-block;
     text-decoration: none;
-    margin: 10px;
+   font-size: 20px;
     color: black;
+    background-color: #A1A1A1;
+    padding: 13px;
+    border-bottom: 3px dashed blue;
 }
 
 
