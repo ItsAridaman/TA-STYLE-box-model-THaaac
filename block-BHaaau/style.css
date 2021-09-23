@@ -46,30 +46,27 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 .header
 {
-    padding: 30px;
+    margin: 00px 250px;
+    padding:40px;
    text-align: center;
-    font-size: 40px;
+    font-size: 35px;
     font-family: 'Roboto Mono', monospace;
 }
-
 .line
 {
    text-align: center;
    width: 600px;
+   margin-top: 50px;
 }
-
 .d1
 {
     display: inline-block;
     background-color: rgb(238, 102, 192);
     padding: 17px;
-    
 }
- 
-.p1
+ .p1
  {
     font-size: 20px;
     height: 160px;
@@ -77,74 +74,97 @@ table {
     background-color:rgb(166, 220, 230) ;
     border: 10px solid rgb(69, 163, 218);
     outline: 4px solid black;
-
  }
-
-
- .main
+.main
  {
      text-align: center;
  }
-
- .h1
+.h1
  {
      font-size: 34px;
      margin: 20px;
  }
-
- .noborder
- {
-     display: inline-block;
-     width: 100px;
-     height: 60px;
-     background-color: rgb(138, 196, 206);
-     padding: 20px;
-     margin: 10px;
-     
-    
- }
-
- .maindiv{
-     border: 3px solid black;
-     margin:20px 500px ;
-     
- }
-
- .otherline
- {
-    
-     display: inline-block;
-     width: 100px;
-     height: 60px;
-     background-color: rgb(138, 196, 206);
-     padding: 20px;
-     margin: 10px;
-     
-}
-
- 
- h2{
-     font-size: 23px;
-     padding: 20px;
- }
-
- .withborder
- {
-     display: inline-block;
-     width: 100px;
-     height: 60px;
-     background-color: rgb(138, 196, 206);
-     padding: 20px;
-     margin: 10px;
-     border: 2px solid black;
-      
- }
-
  .body
  {
     font-family: 'Roboto Mono', monospace;   
  }
 
+ .box1
+ {   display: inline-block;
+     height: 15px;
+     width: 15px;
+     background-color: brown;
+     border-radius: 50%;
+     vertical-align: middle;
+ }
 
+ .content
+ {
+     background-color: yellowgreen;
+ }
 
+ .padding
+ {
+     background-color: rgb(56, 102, 177);
+ }
 
+ .border
+ {
+     background-color: rgb(7, 1, 1);
+ }
+
+ .margin
+ {
+     background-color: rgb(194, 84, 185);
+ }
+
+ .margin1
+ {
+     display: inline-block;
+     margin: 20px 10px;
+ }
+ .maindiv
+ {
+   border: 1px solid black; 
+   width: 600px;
+   margin: 10px;
+   margin: 00px auto;
+   font-size: 0%;
+   margin-bottom: 20px;
+ }
+ .box{
+     display: inline-block;
+     width: 180px;
+     height: 100px;
+     background-color: rgb(89, 180, 153);
+     margin: 10px;
+}
+ .div1
+ {
+     text-align: center;
+ }
+.para2
+ {
+     margin: 30px;
+     text-align: center;
+ }
+.diff-line
+ {
+    display: inline-block;
+    width: 180px;
+    height: 100px;
+    background-color: rgb(89, 180, 153);
+    margin: 10px;
+    border: 1px solid black;
+ }
+.in-line
+ {
+    display: inline-block;
+    width: 180px;
+    height: 100px;
+    background-color: rgb(89, 180, 153);
+    margin: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+ }
+ 
