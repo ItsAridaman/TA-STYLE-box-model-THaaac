@@ -1,0 +1,170 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.header
+{
+    margin: 00px 250px;
+    padding:40px;
+   text-align: center;
+    font-size: 35px;
+    font-family: 'Roboto Mono', monospace;
+}
+.line
+{
+   text-align: center;
+   width: 600px;
+   margin-top: 50px;
+}
+.d1
+{
+    display: inline-block;
+    background-color: rgb(238, 102, 192);
+    padding: 17px;
+}
+ .p1
+ {
+    font-size: 20px;
+    height: 160px;
+    width: 120px;
+    background-color:rgb(166, 220, 230) ;
+    border: 10px solid rgb(69, 163, 218);
+    outline: 4px solid black;
+ }
+.main
+ {
+     text-align: center;
+ }
+.h1
+ {
+     font-size: 34px;
+     margin: 20px;
+ }
+ .body
+ {
+    font-family: 'Roboto Mono', monospace;   
+ }
+
+ .box1
+ {   display: inline-block;
+     height: 15px;
+     width: 15px;
+     background-color: brown;
+     border-radius: 50%;
+     vertical-align: middle;
+ }
+
+ .content
+ {
+     background-color: yellowgreen;
+ }
+
+ .padding
+ {
+     background-color: rgb(56, 102, 177);
+ }
+
+ .border
+ {
+     background-color: rgb(7, 1, 1);
+ }
+
+ .margin
+ {
+     background-color: rgb(194, 84, 185);
+ }
+
+ .margin1
+ {
+     display: inline-block;
+     margin: 20px 10px;
+ }
+ .maindiv
+ {
+   border: 1px solid black; 
+   width: 600px;
+   margin: 10px;
+   margin: 00px auto;
+   font-size: 0%;
+   margin-bottom: 20px;
+ }
+ .box{
+     display: inline-block;
+     width: 180px;
+     height: 100px;
+     background-color: rgb(89, 180, 153);
+     margin: 10px;
+}
+ .div1
+ {
+     text-align: center;
+ }
+.para2
+ {
+     margin: 30px;
+     text-align: center;
+ }
+.diff-line
+ {
+    display: inline-block;
+    width: 180px;
+    height: 100px;
+    background-color: rgb(89, 180, 153);
+    margin: 10px;
+    border: 1px solid black;
+ }
+.in-line
+ {
+    display: inline-block;
+    width: 180px;
+    height: 100px;
+    background-color: rgb(89, 180, 153);
+    margin: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+ }
+ 
