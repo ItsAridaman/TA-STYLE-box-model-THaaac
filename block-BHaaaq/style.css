@@ -1,0 +1,116 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.box
+{
+    height: 100px;
+    width: 150px;
+    background-color: rgb(235, 94, 94);
+    border: 7px solid black;
+    display: inline-block;
+    margin: 30px;
+}
+
+.double
+{
+    border-style: double;
+}
+
+.dashed
+{
+    border-style: dashed;
+}
+
+.dotted
+{
+    border-style: dotted;
+}
+
+.normal
+{
+    border-style:none;
+}
+
+p
+{
+    font-size: 20px;
+    color: blanchedalmond;
+    background-color: rgb(207, 79, 79);
+    width: 230px;
+    padding: 30px;
+    border-top: 16px solid blue;
+    border-right: 16px solid grey;
+    border-bottom: 16px solid yellow;
+    border-left: 16px solid green;
+    margin: 30px;
+
+
+}
+
+.paragraph
+{
+    background-color: rgb(73, 5, 119);
+    padding: 30px 00px;
+    display: inline-block;
+    margin: 30px;
+}
+
+
+
+
+
+
+
+
+.header
+{
+    font-size: 30px;
+    color: black;
+    padding:40px;
+}
